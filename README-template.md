@@ -48,6 +48,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+- 1. I started my own solution to the challenge by first analizing the sample challenge; to have an insight of the best and fast approach for the challenge.
+
+- 2. I setup my workspace for the project in Visual studio code integrating with my Version control system(git) into my repository(local and remote).  N/B: I made a provision for 2 branches(main and updatev1 resp.) in my repo, leaving the 'main' branch with the original files of the challenge(project) and working with the 'updatev1' branch.
+
+- 
+
+
+
 
 ### Built with
 

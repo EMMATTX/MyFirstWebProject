@@ -3,31 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="https://fonts.google.com/specimen/Josefin+Sans">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 375px)" href="css-file/mobile.css" >
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 376px and max-width: 768px)" href="css-file/tablet.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width:769 and max-width: 1440px)" href="css-file/desktop.css" >
+
+
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
+  <header>
+    <div id="brand-logo" class="part">
+      <img src="images/logo.svg" alt="brand logo">
+    </div>
+    <div id="hero-mobile" class="part">
+      <img src="/images/hero-mobile.jpg" alt=" hero-mobile">
+    
+    </div>
 
-  We're coming soon
+  </header>
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
+    
   
-  <footer>
+  <main>
+    
+    <div>
+
+      <h1 id="team-msg"><span class="team">WE'RE</span><br/>COMING<br/>SOON</h1>
+
+      <p id="intro-msg">
+        Hello fellow shoppers! We're currently 
+        
+        building our new fashion store. 
+
+        Add your email below to stay up-to-date with 
+        
+        announcements and our launch deals.
+      </p>
+      <div id="email-form"> 
+        <h3>Email Address</h3>
+        <button id="email-btn"> > </button>
+      </div>
+
+    </div>
+
+  </main>
+
+  
+
+  
+
+  
+  
+  <footer class="part">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Emmanuel Chukwuka</a>.
     </p>
   </footer>
+  
 </body>
 </html>
